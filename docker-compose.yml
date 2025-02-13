@@ -7,7 +7,7 @@ services:
     ports:
       - "8081:80"
     volumes:
-      - ../participacion-social/frontend:/var/www/html
+      - ../participacion-social:/var/www/html
     restart: always
 
   mysql:
